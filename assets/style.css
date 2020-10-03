@@ -26,11 +26,11 @@ max-width: 200px;
     justify-content: space-around;
     padding: 25px 0 20px 0;
     background-color: #EAE3EA;
-
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 1030;
+    margin-top: 30px;
 }
 
 .footer__nav{
@@ -233,7 +233,7 @@ max-width: 200px;
     margin: 25px auto;
 }
 
- /* Products section */
+ /* Events section */
 
 .events {
     display: flex;
@@ -284,5 +284,79 @@ max-width: 200px;
 
     .event__info {
     width: 100%; 
-
+    }
 }
+
+ /* Riders section */
+
+.section__riders {
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+}
+.section__riders h2{
+    margin-bottom: 25px;
+}
+
+.riders-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0 30px 0;
+}
+
+.card-rider {
+    width: 12rem;
+    height: 14rem;
+    margin: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card-rider h4{
+    margin-top: 15px;
+}
+
+.rider1 {
+    width: 12rem;
+    height: 12rem;
+    background-image: url(../images/riders/fabiana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 50%;
+}
+
+.rider2 {
+    width: 12rem;
+    height: 12rem;
+    background-image: url(../images/riders/george.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border-radius: 50%;
+}
+
+.rider3 {
+    width: 12rem;
+    height: 12rem;
+    background-image: url(../images/riders/dolores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    border-radius: 50%;
+}
+
+.rider4 {
+    width: 12rem;
+    height: 12rem;
+    background-image: url(../images/riders/fabio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    border-radius: 50%;
+}
+
