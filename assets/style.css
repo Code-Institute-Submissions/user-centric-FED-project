@@ -30,7 +30,7 @@ max-width: 200px;
     bottom: 0;
     left: 0;
     z-index: 1030;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .footer__nav{
@@ -71,7 +71,7 @@ max-width: 200px;
     font-size: .85rem;
 }
 
-.solcial__icons {
+.social__icons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -80,11 +80,20 @@ max-width: 200px;
     margin: 0 20px;
 }
 
-.solcial__icons li {
+.social__icons li {
     text-decoration: none;
     font-size: 2rem;
     list-style-type: none;
     margin: 1.5rem 0px 1.5rem 1.5rem;
+
+}
+
+.social__icons li a{
+    color: #212529;
+}
+
+.social__icons li a:hover{
+    color: #33373a;
 }
 
 @media (max-width: 768px) { 
@@ -220,13 +229,14 @@ max-width: 200px;
 
 .card-body {
     background-color: rgb(114 114 114 / 7%);
-    padding: 10px 15px;
+    padding: 10px 15px 0 15px;
     margin-top: 10px;
 
 }
 
 .card-body h4 {
     text-align: center;
+
 }
 
 .products button {
@@ -294,7 +304,12 @@ max-width: 200px;
     width: 100%;
     text-align: center;
 }
-.section__riders h2{
+
+.section__riders h2 {
+    margin-bottom: 30px;
+}
+
+.section__riders h4{
     margin-bottom: 25px;
 }
 
@@ -308,7 +323,7 @@ max-width: 200px;
 
 .card-rider {
     width: 12rem;
-    height: 14rem;
+    height: 16rem;
     margin: 20px 20px 0 20px;
     display: flex;
     flex-direction: column;
@@ -360,3 +375,32 @@ max-width: 200px;
     border-radius: 50%;
 }
 
+
+ /* About page */
+
+.about{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5%;
+    display: block;
+}
+
+.about h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* About page */
+
+.contact{
+    padding: 5%;
+}
+.contact h2{
+    margin-bottom: 30px;
+        text-align: center;
+
+}
+
+.contact__form{
+    max-width: 900px;
+}
