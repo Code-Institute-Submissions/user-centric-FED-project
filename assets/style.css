@@ -403,4 +403,5 @@ max-width: 200px;
 
 .contact__form{
     max-width: 900px;
+    margin: 0 auto;
 }
