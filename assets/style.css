@@ -1,3 +1,9 @@
+html,body {
+    background-color:#FFFFFF;
+   width:100%;
+    height:100%;
+}
+
 
 /* Navbar */
 
@@ -20,6 +26,11 @@ max-width: 200px;
     justify-content: space-around;
     padding: 25px 0 20px 0;
     background-color: #EAE3EA;
+
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 .footer__nav{
@@ -90,8 +101,6 @@ max-width: 200px;
  }
 
  /* Hero carousel */
-
-
 
 .carousel-item img {
     max-height: 50vh;
@@ -174,4 +183,54 @@ max-width: 200px;
     bottom: 15%
 }
 
+}
+
+ /* Products section */
+
+.products {
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.products h2{
+    margin: 25px;
+    text-align: center;
+}
+
+.product-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 17rem;
+    height: 21rem;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 11px 20px 0px rgba(114,114,114,0.69);; 
+    box-shadow: 14px 11px 20px 0px rgba(114,114,114,0.69);;
+}
+
+.card-body {
+    background-color: #EAE3EA;
+    padding: 14px 10px 10px 14px ;
+    border-radius: 5px;
+    border: solid 1px rgb(114 114 114 / 10%);
+    margin-top: 10px;
+
+}
+
+.card-body h4 {
+    text-align: center;
+}
+
+.products button {
+    margin: 25px auto;
 }
