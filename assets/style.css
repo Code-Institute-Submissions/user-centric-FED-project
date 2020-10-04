@@ -196,7 +196,7 @@ max-width: 200px;
 
  /* Products section */
 
-.products {
+.products__section {
     padding: 2%;
     width: 100%;
     display: flex;
@@ -205,7 +205,7 @@ max-width: 200px;
 
 }
 
-.products h2{
+.products__section h2{
     margin: 25px;
     text-align: center;
 }
@@ -239,7 +239,7 @@ max-width: 200px;
 
 }
 
-.products button {
+.products__section button {
     margin: 25px auto;
 }
 
@@ -404,4 +404,116 @@ max-width: 200px;
 .contact__form{
     max-width: 900px;
     margin: 0 auto;
+}
+
+ /* Products page */
+
+.products {
+    padding: 2%;
+}
+
+.products h2 {
+    margin: 10px 0 40px 0;
+    text-align: center;
+}
+
+.bicycles__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bicycle__card {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px rgb(155 155 155 / 15%);
+    border-radius: 10px;
+    width: 43vw;
+    -webkit-box-shadow: 14px 11px 20px 0px rgba(114,114,114,0.69);; 
+    box-shadow: 14px 11px 20px 0px rgba(114,114,114,0.69);;
+}
+
+.bicycle__img1 {
+    background-image: url(../images/products/olivia.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55%;
+
+}
+
+.bicycle__img2 {
+    background-image: url(../images/products/mark.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55%;
+
+}
+
+.bicycle__img3 {
+    background-image: url(../images/products/joe.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55%;
+
+}
+
+.bicycle__img4 {
+    background-image: url(../images/products/sophia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55%;
+
+}
+
+.bicycle__body {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.bicycle__price {
+    font-size: 1.5rem;
+    font-weight: 800; 
+    margin: 5px 0;
+}
+
+.bicycle_shipping {
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-bottom: 20px; 
+}
+
+.bicycle__body button {
+    margin: 20px auto 0 auto;
+}
+
+@media (max-width: 992px) { 
+    .bicycle__card {
+    width: 75vw;
+    }
+}
+
+@media (max-width: 540px) { 
+    .bicycle__card {
+        flex-direction: column;
+    }
+    
+    .bicycle__img1, .bicycle__img2, .bicycle__img3, .bicycle__img4 {
+        width: 100%;
+        height: 37vw;
+
+    }
+
+    .bicycle__body {
+        width: 100%;
+    }
 }
