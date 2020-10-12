@@ -425,7 +425,7 @@ max-width: 200px;
 }
 
 .bicycle__card {
-    margin: 20px;
+    margin: 20px 20px 60px 20px;
     display: flex;
     flex-direction: row;
     border: solid 1px rgb(155 155 155 / 15%);
@@ -516,4 +516,102 @@ max-width: 200px;
     .bicycle__body {
         width: 100%;
     }
+}
+
+
+ /* Products page */
+
+.events_page {
+    padding: 2%;
+}
+
+.events_page h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.events_cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.event_card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 30vw;
+    margin: 40px; 
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 11px 20px 0px rgba(114,114,114,0.69);; 
+    box-shadow: 14px 11px 20px 0px rgba(114,114,114,0.69);;
+}
+
+.event_img1 {
+    width: 50%;
+    background-image: url(../images/events/event1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100%
+}
+
+.event_img2 {
+    width: 50%;
+    background-image: url(../images/events/event2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100%
+}
+
+.event_img3 {
+    width: 50%;
+    background-image: url(../images/events/event3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100%
+}
+
+.event_body {
+    width: 50%;
+    padding: 2%;
+}
+
+.event_title {
+    margin: 10px auto 30px auto;
+    text-align: center;
+
+}
+
+.event_info p{
+    margin-top: 30px;
+}
+
+@media (max-width: 1100px) { 
+   .event_card {
+        height: 40vw;
+   }
+}
+
+@media (max-width: 992px) { 
+    .event_card {
+        flex-direction: column;
+        height: 800px;
+
+    }
+    .event_img1, .event_img2, .event_img3 {
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        height: 50%;
+    }
+    .event_body {
+        padding: 20px;
+        width: 100%;
+}
 }
