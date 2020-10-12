@@ -519,7 +519,7 @@ max-width: 200px;
 }
 
 
- /* Products page */
+ /* Events page */
 
 .events_page {
     padding: 2%;
@@ -614,4 +614,107 @@ max-width: 200px;
         padding: 20px;
         width: 100%;
 }
+}
+
+ /* Riders page */
+
+
+.riders-page {
+    padding: 2%;
+}
+
+.riders-page h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.riders-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.rider-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 330px;
+    width: 35vw;
+    max-width: 500px;
+    height: 570px;
+    margin: 40px; 
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 11px 20px 0px rgba(114,114,114,0.69);; 
+    box-shadow: 14px 11px 20px 0px rgba(114,114,114,0.69);;
+}
+
+.rider-img1 {
+    width: 100%;
+    background-image: url(../images/riders/fabiana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 300px;
+}
+
+.rider-img2 {
+    width: 100%;
+    background-image: url(../images/riders/dolores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 300px;
+}
+
+.rider-img3 {
+    width: 100%;
+    background-image: url(../images/riders/fabio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 300px;
+}
+
+.rider-img4 {
+    width: 100%;
+    background-image: url(../images/riders/george.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 300px;
+}
+
+.rider-body {
+    padding: 20px;
+}
+
+.rider-body h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rider-body h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rider-body h5{
+    font-weight: 200;
+}
+
+.rider-body bold {
+    font-weight: 400;
+}
+
+.rider-body bold {
+    font-weight: 400;
+}
+
+.rider-body i {
+    font-size: 1rem;
+}
+.rider-body blockquote {
+    font-size: 1.5rem;
+    margin: 20px;
 }
