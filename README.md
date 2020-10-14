@@ -3,7 +3,7 @@
 
 ## **User-Centric Frontend Development Project - Code Institute**
 
-**&lt;Image mockup website>**
+![website mockup](images/website_mockup.png)
 
 Push & Pedal Inc. is an imaginary company that sells bicycles and wants to have an online presence. The idea was creating a page that could be an  institutional company website to promote their brand, and a base for an e-commerce store.
 
@@ -43,23 +43,20 @@ Access the website here: Push & Pedal Inc.
 
 
 
-### 
-**New Users:**
+#### **New Users:**
 
 *   I’m a enthusiast looking for a new bicycle on the internet.
 *   I know the brand and I’m looking for their website
 *   Participating on events is something that would interest me
 *   I’d like to get in touch with Push & Pedal 
 
-### 
-**Returning User:**
+#### **Returning User:**
 
 *   I want to know more about Push & Pedal products, and maybe buy a new one.
 *   I’d like to know more about their events and maybe book my participation.
 *   I have a question and would like to get in touch with Push & Pedal.
 
-### 
-**Business Owner:**
+#### **Business Owner:**
 
 *   
 *   As the owner of this company, I’d like to have an online presence by having a website where I can promote my brand (product, athletes and events).
@@ -94,17 +91,17 @@ Developing the wireframes was decided to have a simple website, having one separ
 
 The wireframes were created using XXXXXX(Figma), where the base layout of each page was decided. The main decision at this stage was to use Cards on some pages that could be rearranged depending on the screen size. 
 
-**Wireframes**:
+### **Wireframes**:
 
-Mobile 
-
-IMAGE
-
-Tablet 
+Mobile:
 
 IMAGE
 
-Laptop / Desktop 
+Tablet:
+
+IMAGE
+
+Laptop / Desktop:
 
 IMAGE.
 
@@ -141,7 +138,7 @@ The color scheme was decided to have an earthy and natural vibe, providing enoug
 </table>
 
 
-![alt_text](images/color_pallet.png)
+![collor pallet](images/color_pallet.png)
 
 
 In the typography area, it was decided to use Google Font **Roboto,** as it is already largely used and well accepted by users. In case that font can’t be loaded, the fall back is Sans Serif as it will always be loaded correctly.
@@ -290,8 +287,7 @@ I took the following steps to deploy Blasket Sound 2021 to Github pages.
 *   Confirmed my selection.
 *   Blasket Sound 2021 is now live on [GitHub Pages.](https://www.google.com/images)
 
-### 
-**To deploy your own version of the website**
+#### **To deploy your own version of the website**
 
 *   Have git installed.
 *   Visit the [Repo.](https://github.com/jacksheehy15/milestone-project-1)
@@ -320,14 +316,12 @@ The Read.me file was based on Code Institute [readme-template](https://github.co
 The base code from the sections: [Header navbar](https://getbootstrap.com/docs/4.5/components/navbar/), [Hero slide](https://getbootstrap.com/docs/4.5/components/carousel/) and [Contact form](https://getbootstrap.com/docs/4.5/components/forms/) were based on the linked documentation from Bootstrap.
 
 
-## 
-**Media**
+### **Media**
 
 All images were taken online on [Unsplash](https://unsplash.com/), [Burst](https://burst.shopify.com/) and [Pure Cycles](https://www.purecycles.com/#) website. Really appreciated that support.
 
 
-# 
-**Acknowledgments**
+### **Acknowledgments**
 
 I’d like to thank the Code Institute tutors and support staff. Their support definitely helped me to achieve all my goals on this project. 
 
