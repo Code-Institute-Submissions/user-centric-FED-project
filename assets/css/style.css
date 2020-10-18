@@ -9,7 +9,6 @@ body {
 }
 
 /* Header / Navbar */
-
 .navbar-brand img {
     max-width: 200px;
 }
@@ -17,11 +16,9 @@ body {
 .nav-link {
     font-size: 1.25rem;
     margin: 0 1.25rem;
-
 }
 
 /* Footer */
-
 .footer {
     width: 100%;
     display: flex;
@@ -105,21 +102,7 @@ body {
     color: #33373a;
 }
 
-@media (max-width: 768px) {
-    .solcial__icons li {
-        margin: 0 1.5rem 0 1.5rem;
-    }
-}
-
-@media (max-width: 472px) {
-    .footer__nav {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-}
-
 /* Hero carousel */
-
 .carousel-item img {
     max-height: 50vh;
     object-fit: cover;
@@ -168,51 +151,13 @@ body {
 
 }
 
-@media (max-width: 657px) {
-
-    .carousel-caption h5 {
-        font-size: 2rem;
-
-    }
-
-    .carousel-caption p {
-        font-size: 1.5rem;
-
-    }
-
-    .carousel-caption {
-        bottom: 20%
-    }
-
-}
-
-@media (max-width: 450px) {
-
-    .carousel-caption h5 {
-        margin-bottom: 1.5rem;
-
-    }
-
-    .carousel-caption p {
-        display: none;
-
-    }
-
-    .carousel-caption {
-        bottom: 15%
-    }
-
-}
-
 /* Products section */
-
 .products__section {
     padding: 2%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .products__section h2 {
@@ -234,9 +179,7 @@ body {
     padding: 20px 0;
     border-radius: 10px;
     -webkit-box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
-    ;
     box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
-    ;
 }
 
 .card-body {
@@ -260,7 +203,6 @@ body {
 }
 
 /* Events section */
-
 .events {
     display: flex;
     flex-direction: row;
@@ -304,22 +246,7 @@ body {
     display: block;
 }
 
-@media (max-width: 770px) {
-    .events {
-        flex-direction: column;
-    }
-
-    .feature-image {
-        width: 100%;
-    }
-
-    .event__info {
-        width: 100%;
-    }
-}
-
 /* Riders section */
-
 .section__riders {
     padding: 2%;
     width: 100%;
@@ -356,48 +283,35 @@ body {
     margin-top: 15px;
 }
 
-.rider1 {
+.rider-image {
     width: 12rem;
     height: 12rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+#rider1 {
     background-image: url(/assets/images/riders/fabiana.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: bottom right;
-    border-radius: 50%;
 }
 
-.rider2 {
-    width: 12rem;
-    height: 12rem;
+#rider2 {
     background-image: url(/assets/images/riders/george.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: bottom center;
-    border-radius: 50%;
 }
 
-.rider3 {
-    width: 12rem;
-    height: 12rem;
+#rider3 {
     background-image: url(/assets/images/riders/dolores.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: bottom left;
-    border-radius: 50%;
 }
 
-.rider4 {
-    width: 12rem;
-    height: 12rem;
+#rider4 {
     background-image: url(/assets/images/riders/fabio.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: bottom left;
-    border-radius: 50%;
 }
 
 /* About page */
-
 .about {
     max-width: 900px;
     margin: 0 auto;
@@ -410,8 +324,7 @@ body {
     margin-bottom: 30px;
 }
 
-/* About page */
-
+/* Contact page */
 .contact {
     padding: 5%;
 }
@@ -428,7 +341,6 @@ body {
 }
 
 /* Products page */
-
 .products {
     padding: 2%;
 }
@@ -436,16 +348,17 @@ body {
 .products h2 {
     margin: 10px 0 40px 0;
     text-align: center;
+    width: 90%;
 }
 
-.bicycles__cards {
+.bicycles-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.bicycle__card {
+.bicycle-card {
     margin: 20px 20px 60px 20px;
     display: flex;
     flex-direction: row;
@@ -453,48 +366,33 @@ body {
     border-radius: 10px;
     width: 43vw;
     -webkit-box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
-    ;
     box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
-    ;
 }
 
-.bicycle__img1 {
+.bicycle-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55%;
+}
+
+#bicycle-img1 {
     background-image: url(/assets/images/products/olivia.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 55%;
-
 }
 
-.bicycle__img2 {
+#bicycle-img2 {
     background-image: url(/assets/images/products/mark.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 55%;
-
 }
 
-.bicycle__img3 {
+#bicycle-img3 {
     background-image: url(/assets/images/products/joe.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 55%;
-
 }
 
-.bicycle__img4 {
+#bicycle-img4 {
     background-image: url(/assets/images/products/sophia.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 55%;
-
 }
 
-.bicycle__body {
+.bicycle-body {
     display: flex;
     flex-direction: column;
     width: 45%;
@@ -503,49 +401,23 @@ body {
 
 }
 
-.bicycle__price {
+.bicycle-price {
     font-size: 1.5rem;
     font-weight: 800;
     margin: 5px 0;
 }
 
-.bicycle_shipping {
+.bicycl-shipping {
     font-size: 0.9rem;
     font-weight: 200;
     margin-bottom: 20px;
 }
 
-.bicycle__body button {
+.bicycle-body button {
     margin: 20px auto 0 auto;
 }
 
-@media (max-width: 992px) {
-    .bicycle__card {
-        width: 75vw;
-    }
-}
-
-@media (max-width: 540px) {
-    .bicycle__card {
-        flex-direction: column;
-    }
-
-    .bicycle__img1,
-    .bicycle__img2,
-    .bicycle__img3,
-    .bicycle__img4 {
-        width: 100%;
-        height: 37vw;
-
-    }
-
-    .bicycle__body {
-        width: 100%;
-    }
-}
-
 /* Events page */
-
 .events_page {
     padding: 2%;
 }
@@ -568,39 +440,30 @@ body {
     flex-wrap: wrap;
     width: 80vw;
     height: 500px;
-    margin: 40px;
+    margin-bottom: 40px;
     border-radius: 10px;
     -webkit-box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
-    ;
     box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
-    ;
 }
 
-.event_img1 {
+.event-image {
     width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100%
+}
+
+#event_img1 {
     background-image: url(/assets/images/events/event1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    height: 100%
 }
 
-.event_img2 {
-    width: 50%;
+#event_img2 {
     background-image: url(/assets/images/events/event2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    height: 100%
 }
 
-.event_img3 {
-    width: 50%;
+#event_img3 {
     background-image: url(/assets/images/events/event3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    height: 100%
 }
 
 .event_body {
@@ -623,41 +486,11 @@ body {
 }
 
 .event_info button {
-    margin: 40px auto 0 auto;
+    margin: 40px auto 40px auto;
     display: block;
 }
 
-@media (max-width: 1100px) {
-    .event_card {
-        height: 500px;
-    }
-}
-
-@media (max-width: 992px) {
-    .event_card {
-        flex-direction: column;
-        height: 900px;
-
-    }
-
-    .event_img1,
-    .event_img2,
-    .event_img3 {
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom right;
-        height: 40%;
-    }
-
-    .event_body {
-        padding: 20px;
-        width: 100%;
-    }
-}
-
 /* Riders page */
-
 .riders-page {
     padding: 2%;
 }
@@ -685,45 +518,31 @@ body {
     margin: 40px;
     border-radius: 10px;
     -webkit-box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
-    ;
     box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
-    ;
 }
 
-.rider-img1 {
+.rider-images {
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 300px;
+}
+
+#rider-img1 {
     background-image: url(/assets/images/riders/fabiana.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    height: 300px;
 }
 
-.rider-img2 {
-    width: 100%;
+#rider-img2 {
     background-image: url(/assets/images/riders/dolores.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    height: 300px;
 }
 
-.rider-img3 {
-    width: 100%;
+#rider-img3 {
     background-image: url(/assets/images/riders/fabio.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    height: 300px;
 }
 
-.rider-img4 {
-    width: 100%;
+#rider-img4 {
     background-image: url(/assets/images/riders/george.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    height: 300px;
 }
 
 .rider-body {
@@ -751,4 +570,122 @@ body {
 .rider-body blockquote {
     font-size: 1.5rem;
     margin: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 1100px) {
+    .event_card {
+        height: 500px;
+    }
+}
+
+@media (max-width: 992px) {
+    .bicycle-card {
+        width: 90vw;
+    }
+
+    .event_card {
+        height: 900px;
+    }
+
+    .event-image {
+        width: 100%;
+        height: 52%;
+    }
+
+    .event_body {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    .events {
+        flex-direction: column;
+    }
+
+    .feature-image {
+        width: 100%;
+    }
+
+    .event__info {
+        width: 100%;
+    }
+
+    .solcial__icons li {
+        margin: 0 1.5rem 0 1.5rem;
+    }
+}
+@media (max-width: 656px) {
+    .event_card {
+        height: 800px;
+    }
+    .event-image{
+            height: 40%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 2rem;
+
+    }
+
+    .carousel-caption p {
+        font-size: 1.5rem;
+
+    }
+
+    .carousel-caption {
+        bottom: 20%
+    }
+
+}
+
+@media (max-width: 540px) {
+    .bicycle-card {
+        flex-direction: column;
+    }
+
+    #bicycle-img1,
+    #bicycle-img2,
+    #bicycle-img3,
+    #bicycle-img4 {
+        width: 100%;
+        height: 37vw;
+    }
+
+    .bicycle-body {
+        width: 100%;
+    }
+}
+
+@media (max-width: 472px) {
+    .footer__nav {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .carousel-caption h5 {
+        margin-bottom: 1.5rem;
+
+    }
+
+    .carousel-caption p {
+        display: none;
+
+    }
+
+    .carousel-caption {
+        bottom: 15%
+    }
+
+    .event_card {
+        height: 800px;
+        width: 90vw;
+    }
+
+    .event-image{
+            height: 30%;
+    }
 }
