@@ -80,11 +80,11 @@ It was decided that some key features need to be attended on this project, where
 
 Developing the wireframes was decided to have a simple website, having one separated page for each key feature the company wanted to promote, and having the more important features also promoted in a specific section in the homepage.
 
-The wireframes were created using XXXXXX(Figma), where the base layout of each page was decided. The main decision at this stage was to use Cards on some pages that could be rearranged depending on the screen size. 
+The wireframes were created using Figma, where the base layout of each page was decided. The main decision at this stage was to use Cards on some pages that could be rearranged depending on the screen size. 
 
 ### **Wireframes**:
 
-The project wireframes was created using Figma, and can be accesed [here](https://www.figma.com/file/7o305CmYXW6TFasy3I3c9z/Push-and-Pedal-Wireframe?node-id=0%3A1).
+The project wireframes can be accesed [clicking here](https://www.figma.com/file/7o305CmYXW6TFasy3I3c9z/Push-and-Pedal-Wireframe?node-id=0%3A1).
 
 Mobile:
 
