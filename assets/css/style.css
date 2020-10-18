@@ -1,0 +1,754 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html,
+body {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header / Navbar */
+
+.navbar-brand img {
+    max-width: 200px;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+    margin: 0 1.25rem;
+
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 25px 0 20px 0;
+    background-color: #EAE3EA;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    margin-top: 50px;
+}
+
+.footer__nav {
+    margin: 0 40px;
+}
+
+.footer__nav h5 {
+    font-size: 1.2rem;
+}
+
+.footer__links {
+    column-count: 2;
+    column-fill: balance;
+    max-height: 80px;
+}
+
+.footer__links ul {
+    padding-left: 0px;
+}
+
+.footer__links li {
+    list-style-type: none;
+    text-decoration: none;
+    color: #212529;
+}
+
+.footer__links li:hover {
+    color: #000;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 9px;
+    margin: 0 20px;
+}
+
+.footer__contact p {
+    margin-bottom: 0px;
+    font-size: .85rem;
+}
+
+.social__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin: 0 20px;
+}
+
+.social__icons li {
+    text-decoration: none;
+    font-size: 2rem;
+    list-style-type: none;
+    margin: 1.5rem 0px 1.5rem 1.5rem;
+
+}
+
+.social__icons li a {
+    color: #212529;
+}
+
+.social__icons li a:hover {
+    color: #33373a;
+}
+
+@media (max-width: 768px) {
+    .solcial__icons li {
+        margin: 0 1.5rem 0 1.5rem;
+    }
+}
+
+@media (max-width: 472px) {
+    .footer__nav {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+/* Hero carousel */
+
+.carousel-item img {
+    max-height: 50vh;
+    object-fit: cover;
+    filter: brightness(85%);
+
+}
+
+#darker-filter {
+    filter: brightness(65%);
+
+}
+
+.carousel-caption {
+    bottom: 25%
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+    filter: drop-shadow(.03em .03em #000);
+
+}
+
+.carousel-caption p {
+    font-size: 2rem;
+    filter: drop-shadow(.05em .05em #000);
+
+}
+
+.btn-style {
+    background-color: #B56357;
+    color: #fff;
+    border-radius: 0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.btn-style:hover {
+    background-color: #974D42;
+    color: #fff;
+
+}
+
+@media (max-width: 657px) {
+
+    .carousel-caption h5 {
+        font-size: 2rem;
+
+    }
+
+    .carousel-caption p {
+        font-size: 1.5rem;
+
+    }
+
+    .carousel-caption {
+        bottom: 20%
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .carousel-caption h5 {
+        margin-bottom: 1.5rem;
+
+    }
+
+    .carousel-caption p {
+        display: none;
+
+    }
+
+    .carousel-caption {
+        bottom: 15%
+    }
+
+}
+
+/* Products section */
+
+.products__section {
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.products__section h2 {
+    margin: 25px;
+    text-align: center;
+}
+
+.product-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 17rem;
+    height: 21rem;
+    margin: 30px;
+    padding: 20px 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
+    ;
+    box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
+    ;
+}
+
+.card-body {
+    background-color: rgb(114 114 114 / 7%);
+    padding: 10px 15px 0 15px;
+    margin-top: 10px;
+
+}
+
+.card-body h4 {
+    text-align: center;
+
+}
+
+.products__section button {
+    margin: 25px auto;
+}
+
+.products__section button {
+    display: block;
+}
+
+/* Events section */
+
+.events {
+    display: flex;
+    flex-direction: row;
+}
+
+.events__section {
+    margin-bottom: 30px;
+}
+
+.events__section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-image {
+    background-image: url(/assets/images/events/event1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 50%;
+    height: 40vw;
+}
+
+.event__info {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event__info button {
+    margin: 0 auto;
+}
+
+.description {
+    margin: 20px 0;
+}
+
+.events__section button {
+    display: block;
+}
+
+@media (max-width: 770px) {
+    .events {
+        flex-direction: column;
+    }
+
+    .feature-image {
+        width: 100%;
+    }
+
+    .event__info {
+        width: 100%;
+    }
+}
+
+/* Riders section */
+
+.section__riders {
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.section__riders h2 {
+    margin-bottom: 30px;
+}
+
+.section__riders h4 {
+    margin-bottom: 25px;
+}
+
+.riders-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0 30px 0;
+}
+
+.card-rider {
+    width: 12rem;
+    height: 16rem;
+    margin: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-rider h4 {
+    margin-top: 15px;
+}
+
+.rider1 {
+    width: 12rem;
+    height: 12rem;
+    background-image: url(/assets/images/riders/fabiana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 50%;
+}
+
+.rider2 {
+    width: 12rem;
+    height: 12rem;
+    background-image: url(/assets/images/riders/george.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border-radius: 50%;
+}
+
+.rider3 {
+    width: 12rem;
+    height: 12rem;
+    background-image: url(/assets/images/riders/dolores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    border-radius: 50%;
+}
+
+.rider4 {
+    width: 12rem;
+    height: 12rem;
+    background-image: url(/assets/images/riders/fabio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    border-radius: 50%;
+}
+
+/* About page */
+
+.about {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 5%;
+    display: block;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* About page */
+
+.contact {
+    padding: 5%;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.contact__form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Products page */
+
+.products {
+    padding: 2%;
+}
+
+.products h2 {
+    margin: 10px 0 40px 0;
+    text-align: center;
+}
+
+.bicycles__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bicycle__card {
+    margin: 20px 20px 60px 20px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px rgb(155 155 155 / 15%);
+    border-radius: 10px;
+    width: 43vw;
+    -webkit-box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
+    ;
+    box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
+    ;
+}
+
+.bicycle__img1 {
+    background-image: url(/assets/images/products/olivia.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55%;
+
+}
+
+.bicycle__img2 {
+    background-image: url(/assets/images/products/mark.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55%;
+
+}
+
+.bicycle__img3 {
+    background-image: url(/assets/images/products/joe.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55%;
+
+}
+
+.bicycle__img4 {
+    background-image: url(/assets/images/products/sophia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55%;
+
+}
+
+.bicycle__body {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.bicycle__price {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 5px 0;
+}
+
+.bicycle_shipping {
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.bicycle__body button {
+    margin: 20px auto 0 auto;
+}
+
+@media (max-width: 992px) {
+    .bicycle__card {
+        width: 75vw;
+    }
+}
+
+@media (max-width: 540px) {
+    .bicycle__card {
+        flex-direction: column;
+    }
+
+    .bicycle__img1,
+    .bicycle__img2,
+    .bicycle__img3,
+    .bicycle__img4 {
+        width: 100%;
+        height: 37vw;
+
+    }
+
+    .bicycle__body {
+        width: 100%;
+    }
+}
+
+/* Events page */
+
+.events_page {
+    padding: 2%;
+}
+
+.events_page h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.events_cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.event_card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 500px;
+    margin: 40px;
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
+    ;
+    box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
+    ;
+}
+
+.event_img1 {
+    width: 50%;
+    background-image: url(/assets/images/events/event1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100%
+}
+
+.event_img2 {
+    width: 50%;
+    background-image: url(/assets/images/events/event2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100%
+}
+
+.event_img3 {
+    width: 50%;
+    background-image: url(/assets/images/events/event3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 100%
+}
+
+.event_body {
+    width: 50%;
+    padding: 2%;
+}
+
+.event_title {
+    margin: 10px auto 30px auto;
+    text-align: center;
+
+}
+
+.event_info h5 {
+    font-weight: 200;
+}
+
+.event_info p {
+    margin-top: 30px;
+}
+
+.event_info button {
+    margin: 40px auto 0 auto;
+    display: block;
+}
+
+@media (max-width: 1100px) {
+    .event_card {
+        height: 500px;
+    }
+}
+
+@media (max-width: 992px) {
+    .event_card {
+        flex-direction: column;
+        height: 900px;
+
+    }
+
+    .event_img1,
+    .event_img2,
+    .event_img3 {
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        height: 40%;
+    }
+
+    .event_body {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+/* Riders page */
+
+.riders-page {
+    padding: 2%;
+}
+
+.riders-page h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.riders-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.rider-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 330px;
+    width: 35vw;
+    max-width: 500px;
+    height: 570px;
+    margin: 40px;
+    border-radius: 10px;
+    -webkit-box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
+    ;
+    box-shadow: 14px 11px 20px 0px rgba(114, 114, 114, 0.69);
+    ;
+}
+
+.rider-img1 {
+    width: 100%;
+    background-image: url(/assets/images/riders/fabiana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 300px;
+}
+
+.rider-img2 {
+    width: 100%;
+    background-image: url(/assets/images/riders/dolores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 300px;
+}
+
+.rider-img3 {
+    width: 100%;
+    background-image: url(/assets/images/riders/fabio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 300px;
+}
+
+.rider-img4 {
+    width: 100%;
+    background-image: url(/assets/images/riders/george.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 300px;
+}
+
+.rider-body {
+    padding: 20px;
+}
+
+.rider-body h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rider-body h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rider-body h5 {
+    font-weight: 200;
+}
+
+.rider-body i {
+    font-size: 1rem;
+}
+
+.rider-body blockquote {
+    font-size: 1.5rem;
+    margin: 20px;
+}
