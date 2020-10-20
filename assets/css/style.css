@@ -218,7 +218,7 @@ body {
 }
 
 .feature-image {
-    background-image: url(/assets/images/events/event1.jpg);
+    background-image: url('/assets/images/events/event1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -292,22 +292,22 @@ body {
 }
 
 #rider1 {
-    background-image: url(/assets/images/riders/fabiana.jpg);
+    background-image: url('/assets/images/riders/fabiana.jpg');
     background-position: bottom right;
 }
 
 #rider2 {
-    background-image: url(/assets/images/riders/george.jpg);
+    background-image: url('/assets/images/riders/george.jpg');
     background-position: bottom center;
 }
 
 #rider3 {
-    background-image: url(/assets/images/riders/dolores.jpg);
+    background-image: url('/assets/images/riders/dolores.jpg');
     background-position: bottom left;
 }
 
 #rider4 {
-    background-image: url(/assets/images/riders/fabio.jpg);
+    background-image: url('/assets/images/riders/fabio.jpg');
     background-position: bottom left;
 }
 
@@ -377,19 +377,19 @@ body {
 }
 
 #bicycle-img1 {
-    background-image: url(/assets/images/products/olivia.jpeg);
+    background-image: url('/assets/images/products/olivia.jpeg');
 }
 
 #bicycle-img2 {
-    background-image: url(/assets/images/products/mark.jpeg);
+    background-image: url('/assets/images/products/mark.jpeg');
 }
 
 #bicycle-img3 {
-    background-image: url(/assets/images/products/joe.jpeg);
+    background-image: url('/assets/images/products/joe.jpeg');
 }
 
 #bicycle-img4 {
-    background-image: url(/assets/images/products/sophia.png);
+    background-image: url('/assets/images/products/sophia.png');
 }
 
 .bicycle-body {
@@ -455,15 +455,15 @@ body {
 }
 
 #event_img1 {
-    background-image: url(/assets/images/events/event1.jpg);
+    background-image: url('/assets/images/events/event1.jpg');
 }
 
 #event_img2 {
-    background-image: url(/assets/images/events/event2.jpg);
+    background-image: url('/assets/images/events/event2.jpg');
 }
 
 #event_img3 {
-    background-image: url(/assets/images/events/event3.jpg);
+    background-image: url('/assets/images/events/event3.jpg');
 }
 
 .event_body {
@@ -530,19 +530,19 @@ body {
 }
 
 #rider-img1 {
-    background-image: url(/assets/images/riders/fabiana.jpg);
+    background-image: url('/assets/images/riders/fabiana.jpg');
 }
 
 #rider-img2 {
-    background-image: url(/assets/images/riders/dolores.jpg);
+    background-image: url('/assets/images/riders/dolores.jpg');
 }
 
 #rider-img3 {
-    background-image: url(/assets/images/riders/fabio.jpg);
+    background-image: url('/assets/images/riders/fabio.jpg');
 }
 
 #rider-img4 {
-    background-image: url(/assets/images/riders/george.jpg);
+    background-image: url('/assets/images/riders/george.jpg');
 }
 
 .rider-body {
